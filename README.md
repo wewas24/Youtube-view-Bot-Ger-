@@ -7,3 +7,4 @@ Dieser Bot ist nur eine autmotisierter Script mit demm man die Klick zahlen und 
 4. Den anweisungen folgen
 Bitte Rechtschreib fehler ignorienen habe Legastenie mann kann sie aber gerne melden.
 Vorschläge und Fragen nehme ich gerne entgegen.
+Ich übernehme KEINE Haftung für eventuelle Youtube Bans oder andere nicht erwünschte folgen!
