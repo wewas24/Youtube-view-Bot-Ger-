@@ -1,4 +1,4 @@
-﻿@echo off
+@echo off
 cls
 title Beta YTBOT v4.2.1.1 by wewas24
 color a
