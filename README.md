@@ -8,3 +8,4 @@ Dieser Bot ist nur eine autmotisierter Script mit demm man die Klick zahlen und 
 Bitte Rechtschreib fehler ignorienen habe Legastenie mann kann sie aber gerne melden.
 Vorschläge und Fragen nehme ich gerne entgegen.
 Ich übernehme KEINE Haftung für eventuelle Youtube Bans oder andere nicht erwünschte folgen!
+Es kann sein das ein virus.bat.unsafe.1 entdekt wird aber ich versiche das die Batch clean ist den code kann man sich ja anzeigen lassen.
