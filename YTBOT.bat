@@ -1,8 +1,8 @@
 ﻿@echo off
 cls
-echo off
-title Beta YTBOT v4.2 by wewas24
+title Beta YTBOT v4.2.1.2 by wewas24
 color a
+echo off
 echo=================================================================================================================
 echo ANLEITUNG: Den den Browser deiner wahl als Standart waehlen (Ich emphele Chrome da Firefox in den Abgesicherten modus moechte). Danach alle Auforderungen erledigen und los gehts!
 echo=================================================================================================================
@@ -37,7 +37,6 @@ set /p pz=
 echo=================================================================================================================
 set /A counter=1
 :start
-::begin des vorgangs
 set /A t=%k%-1
 echo Duchlauf %counter% von %t%
 set /A counter=%counter%+1
@@ -47,17 +46,10 @@ timeout %r%
 taskkill /IM %b% /F
 timeout %pz%
 if %counter% lss %k% ( goto :start )
-
-
-
+:goto ende
 :ende
 taskkill /IM cmd.exe /F
-
-
-
-::Schenlle mehtohde
 :fast1
-::whalmöglich keiten definition von buschstaben
 echo=================================================================================================================
 echo Ist der gewaelte Browser der standart Browser? Ja[j] Nein[n]!
 set /P n=
@@ -78,7 +70,6 @@ echo Bitte die Zeit der Pausen zwischen den durchlaeufen weahlen!
 set /p pz=
 echo=================================================================================================================
 set /A counter=1
-::begin des vorgangs
 :fast2
 set /A t=%k%-1
 echo Duchlauf %counter% von %t%
@@ -91,17 +82,12 @@ timeout 5
 start %l%
 timeout 5
 start %l%
-timeout 5
-timeout %r%
+timeout %w%
 taskkill /IM %b% /F
 timeout %pz%
 if %counter% lss %k% ( goto :fast2 )
-
-
-
-:: Mehrer liks
+:goto ende
 :mehr1
-::whalmöglich keiten definition von buschstaben
 echo=================================================================================================================
 echo Ist der gewaelte Browser der standart Browser? Ja[j] Nein[n]!
 set /P n=
@@ -126,7 +112,6 @@ set /p pz=
 echo=================================================================================================================
 set /A counter=1
 :mehr2
-::begin des vorgangs
 set /A t=%k%-1
 echo Duchlauf %counter% von %t%
 echo=================================================================================================================
@@ -142,3 +127,4 @@ timeout %r%
 taskkill /IM %b% /F
 timeout %pz%
 if %counter% lss %k% ( goto :mehr2 )
+:goto ende
